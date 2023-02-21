@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: system-ui,  'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: #1Bffff;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      .center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        background-color: #fff;
+        border-radius: 10px;
+      }
+      
+      h2 {
+        color: #1Bffff;
+        text-align: center;
+      }
+
+      form {
+        margin-top: 50px;
+        padding: 0 40px;
+      }
+
+      .text_field {
+        border-bottom: 2px solid #1Bffff;
+        margin-bottom: 20px;
+      }
+
+      input {
+        width: 100%;
+        padding: 5px 0;
+        border: none;
+        background: none;
+        outline: none;
+      }
+
+      label {
+        padding-left: 5px;
+        color: #adaada;
+      }
+
+      .btn {
+        font-size: 25px;
+        color: #adaada;
+        border: #adaada;
+        background-color: #1Bffff;
+        margin: 15px 0;
+      }
+
+      table, td, th {
+        width: 100%;
+        border: 1px solid #1Bffff;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+      <div class="center">
+      <h2 class="title">Login</h2>
+      <form action="">
+        <div class="text_field">
+          <label for="name">Username</label>
+          <input type="text" id="name" />
+        </div>
+        <div class="text_field">
+          <label for="pass">Sassword</label>
+          <input type="password" name="pass" id="pass" />
+        </div>
+        <div><button class="btn">Submit</button></div>
+      </div>
+
+      <div style="background: #fff;">
+        <h2 style="color: #1Bffff;">Điểm danh</h2>
+        <table style="color: #1Bffff;">
+          <tr>
+            <th >Tên học sinh</th>
+            <th>Đi học</th>
+            <th>Nghỉ học</th>
+          </tr>
+           <tr>
+            <td>Đức</td>
+            <td>y</td>
+            <td>n</td>
+          </tr>
+           <tr>
+            <td>Đạt</td>
+            <td>n</td>
+            <td>y</td>
+          </tr>
+        </table>
+      </div>
+    </form>
+  </body>
+</html>
